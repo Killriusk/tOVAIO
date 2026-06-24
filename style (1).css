@@ -1,0 +1,36 @@
+body{
+    margin:200px;
+    padding: 5px;
+    background-color: rgb(37, 66, 96);
+    justify-content: center;
+    color: brown;
+}
+
+
+.titulo{
+    text-align: center;
+     color: rgb(224, 224, 224)
+
+}
+.poll-btn {
+    font-family:"Ultra", serif;
+    font-size: 70%;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1.5px solid #ccc;
+    background: #254260;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+
+}
+
+.poll-btn:hover {
+  background: #1d334b;
+  border-color: #888;
+}
+
+.poll-btn:active {
+  transform: scale(0.97);
+}
